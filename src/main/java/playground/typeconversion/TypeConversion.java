@@ -16,38 +16,26 @@ public class TypeConversion {
 
 //        short -> int
         short number1 = 3;
-        int number2 = 7;
-        int sum = number1 + number2;
-        System.out.println(sum);
-
+        int number2 = number1;
+        System.out.println(number2);
 //        short -> long
-        short number3 = 4;
-        long number4 = 322223;
-        long sum2 = number3 + number4;
-        System.out.println(sum2);
-
+        long number3 = number1;
+        System.out.println(number3);
 //        int -> float
-        float number5 = 45f;
-        float sum3 = number2 + number5;
-        System.out.println(sum3);
-
+        float number4 = number2;
+        System.out.println(number4);
 //        int -> double
-        double number6 = 42d;
-        double sum4 = number2 + number6;
-        System.out.println(sum4);
-
+        double number5 = number2;
+        System.out.println(number5);
 //        long -> int, need casting because long > int
-        int sum5 = (int) (number4 + number2);
-        System.out.println(sum5);
-
+        int number6 = (int) number3;
+        System.out.println(number6);
 //        short -> byte, need casting because short > byte
-        byte number7 = 21;
-        short sum6 = (short) (number1 + number7);
-        System.out.println(sum6);
-
+        byte number7 = (byte) number1;
+        System.out.println(number7);
 //        char -> int
         char character1 = 'a';
-        int sum7 = character1 + number2;
-        System.out.println(sum7);
+        int number8 = character1;
+        System.out.println(number8);
     }
 }
