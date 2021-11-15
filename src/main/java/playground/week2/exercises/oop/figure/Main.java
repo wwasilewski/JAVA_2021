@@ -43,5 +43,6 @@ public class Main {
         for (Figure figure : figures) {
             figure.displayArea();
         }
+        sc.close();
     }
 }
