@@ -1,12 +1,12 @@
 package playground.week2.exercises.oop.car;
 
 public abstract class Car {
-
-    private String producer;
-    private String model;
-    private String color;
-    private int seatsNumber;
-    private Engine engine;
+    //protected to make them visible in CarMain
+    protected String producer;
+    protected String model;
+    protected String color;
+    protected int seatsNumber;
+    protected Engine engine;
 
     public Car() {
         this.seatsNumber = 2;
@@ -18,5 +18,16 @@ public abstract class Car {
         this.color = color;
         this.seatsNumber = seatsNumber;
         this.engine = engine;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "producer='" + producer + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", seatsNumber=" + seatsNumber +
+                ", engine=" + engine +
+                '}';
     }
 }

@@ -34,4 +34,13 @@ public class Engine {
     public double getFuelConsumption() {
         return fuelConsumption;
     }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "capacity=" + capacity +
+                ", horsePower=" + horsePower +
+                ", fuelConsumption=" + fuelConsumption +
+                '}';
+    }
 }
