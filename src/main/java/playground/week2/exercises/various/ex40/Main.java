@@ -40,5 +40,7 @@ public class Main {
         Ex40 ex40 = new Ex40(new Solution());
         ex40.calculate(a, b, c);
         ex40.printResults();
+
+        sc.close();
     }
 }
