@@ -5,7 +5,7 @@ uważamy tekst zawierający małe i duże litery oraz cyfry. Jego minimalna dłu
 a maksymalna 16 znaków.
 */
 
-package playground.week3.regex.ex3;
+package playground.week3.exercises.regex.ex3;
 
 import java.util.regex.Pattern;
 

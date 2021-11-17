@@ -1,4 +1,4 @@
-package playground.week3.regex.ex2;
+package playground.week3.exercises.regex.ex3;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class Main {
         System.out.println("provide a string to check: ");
         String stringToCheck = sc.nextLine();
 
-        Ex2 ex2 = new Ex2();
-        boolean result = ex2.checkIfZipCode(stringToCheck);
-        System.out.println("is it a valid polish zip-code? " + result);
+        Ex3 ex3 = new Ex3();
+        boolean result = ex3.checkIfProperLogin(stringToCheck);
+        System.out.println("is login valid? " + result);
 
         sc.close();
     }

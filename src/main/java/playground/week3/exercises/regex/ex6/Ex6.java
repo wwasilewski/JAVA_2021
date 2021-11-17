@@ -4,7 +4,7 @@ czy wprowadzony numer seryjny jest poprawny. Numer seryjny składa się z 3 duż
 liter, 5 cyfr, 1 małej litery i 1 dużej litery np. VSD43281fA.
 */
 
-package playground.week3.regex.ex6;
+package playground.week3.exercises.regex.ex6;
 
 import java.util.regex.Pattern;
 

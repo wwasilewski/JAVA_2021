@@ -1,22 +1,22 @@
-package playground.week3.regex.ex2;
+package playground.week3.exercises.regex.ex4;
 
 import java.util.Scanner;
 
-public class Ex2BMain {
+public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("provide a string to check: ");
 
-        Ex2B ex2B = new Ex2B();
+        Ex4 ex4 = new Ex4();
 
         while (true) {
             String stringToCheck = sc.nextLine();
-            if (ex2B.isValid(stringToCheck)) {
-                System.out.println("zip-code valid");
+            if (ex4.checkIfAla(stringToCheck)) {
+                System.out.println("string contains \"ala\"");
                 break;
             } else {
-                System.out.println("zip-code invalid, pick again: ");
+                System.out.println("no \"ala\" in string, pick again: ");
             }
         }
         sc.close();

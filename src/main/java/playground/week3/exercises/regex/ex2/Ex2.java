@@ -3,7 +3,7 @@ Przygotuj aplikację pobierającą od użytkownika ciąg znaków i sprawdzając�
 podany tekst jest poprawnym polskim kodem pocztowym (np. 85-155, 00-122)
 */
 
-package playground.week3.regex.ex2;
+package playground.week3.exercises.regex.ex2;
 
 import java.util.regex.Pattern;
 

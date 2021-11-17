@@ -1,4 +1,4 @@
-package playground.week3.regex;
+package playground.week3.exercises;
 
 public interface RegexValidator {
     boolean isValid(String string);

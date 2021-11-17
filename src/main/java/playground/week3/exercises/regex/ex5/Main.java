@@ -1,4 +1,4 @@
-package playground.week3.regex.ex5;
+package playground.week3.exercises.regex.ex5;
 
 import java.util.Scanner;
 

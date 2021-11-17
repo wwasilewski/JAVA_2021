@@ -3,7 +3,7 @@ Przygotuj aplikację pobierającą od użytkownika dowolny ciąg znaków i spraw
 czy wprowadzona wartość zawiera słowo "ala".
 */
 
-package playground.week3.regex.ex4;
+package playground.week3.exercises.regex.ex4;
 
 import java.util.regex.Pattern;
 

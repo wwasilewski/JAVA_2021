@@ -6,7 +6,7 @@ użytkownika o wprowadzeniu poprawnej lub błędnej liczby oraz o jej parzystoś
 nieparzystości.
 */
 
-package playground.week3.regex.ex1;
+package playground.week3.exercises.regex.ex1;
 
 import java.util.regex.Pattern;
 

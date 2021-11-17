@@ -6,15 +6,15 @@ użytkownika o wprowadzeniu poprawnej lub błędnej liczby oraz o jej parzystoś
 nieparzystości.
 */
 
-package playground.week3.regex.ex1;
+package playground.week3.exercises.regex.ex1;
 
-import playground.week3.regex.RegexValidator;
+import playground.week3.exercises.RegexValidator;
 
 import java.util.regex.Pattern;
 
 public class Ex1B implements RegexValidator {
 
-    public static final Pattern PATTERN = Pattern.compile("^[0-9]+$");
+    public final Pattern PATTERN = Pattern.compile("^[0-9]+$");
 
     @Override
     public boolean isValid(String string) {

@@ -5,7 +5,7 @@ czy wprowadzona data jest poprawna. Za poprawną datę uważamy zapis w postaci
 też poprawna wartość.
 */
 
-package playground.week3.regex.ex5;
+package playground.week3.exercises.regex.ex5;
 
 import java.util.regex.Pattern;
 
