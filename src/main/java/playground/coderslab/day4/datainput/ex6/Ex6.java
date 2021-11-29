@@ -8,34 +8,18 @@ public class Ex6 {
     }
 
     private static void equation() {
-        Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
-        int c;
         double solutionA;
         double solutionB;
         double delta;
 
         System.out.println("provide a: ");
-        while (!sc.hasNextInt()) {
-            sc.next();
-            System.out.println("wrong input, only integers for a: ");
-        }
-        a = sc.nextInt();
+        int a = provideNumber();
 
         System.out.println("provide b: ");
-        while (!sc.hasNextInt()) {
-            sc.next();
-            System.out.println("wrong input, only integers for b: ");
-        }
-        b = sc.nextInt();
+        int b = provideNumber();
 
         System.out.println("provide c: ");
-        while (!sc.hasNextInt()) {
-            sc.next();
-            System.out.println("wrong input, only integers for c: ");
-        }
-        c = sc.nextInt();
+        int c = provideNumber();
 
         delta = b * b - 4 * a * c;
 
@@ -51,6 +35,17 @@ public class Ex6 {
             solutionA = 0;
             System.out.println(solutionA);
         }
-        sc.close();
+    }
+
+    private static int provideNumber() {
+        Scanner sc = new Scanner(System.in);
+        int number;
+        while (!sc.hasNextInt()) {
+            sc.next();
+            System.out.println("wrong input, only integers for a: ");
+        }
+        number = sc.nextInt();
+
+        return number;
     }
 }
