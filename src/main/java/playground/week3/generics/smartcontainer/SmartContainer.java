@@ -20,10 +20,10 @@ public class SmartContainer<T> {
         return element;
     }
 
-    public T update(int index, T element) {
+    public void update(int index, T element) {
         System.out.print("Element to be updated: ");
         System.out.println(elements.get(index));
-        return elements.set(index, element);
+        elements.set(index, element);
     }
 
     public void printElement(int index) {
