@@ -1,3 +1,10 @@
+/*
+Przygotuj aplikację pobierającą od użytkownika imię i sprawdzającą ile samogłosek i
+ile spółgłosek jest podanym imieniu. Przygotuj klasę z 2 metodami sprawdzającymi
+ilość samogłosek i ilość spółgłosek. Przygotuj testy jednostkowe weryfikujące
+działanie dwóch metod.
+*/
+
 package playground.week3.exercises.unittests.ex20;
 
 public class Ex20 {
