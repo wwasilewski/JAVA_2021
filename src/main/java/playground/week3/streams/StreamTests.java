@@ -3,6 +3,7 @@ package playground.week3.streams;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.ToIntFunction;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamTests {
@@ -35,5 +36,11 @@ public class StreamTests {
 
         ToIntFunction<String> stringToInt = Integer::parseInt;
 
+        Stream.of("one", "two", "three", "four")
+                .filter(e -> e.length() > 3)
+                .peek(e -> System.out.println("filtered value: " + e))
+                .map(String::toUpperCase)
+                .peek(e -> System.out.println("mapped value: " + e))
+                .collect(Collectors.toList());
     }
 }
