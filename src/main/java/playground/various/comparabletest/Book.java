@@ -21,6 +21,7 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book book) {
-        return year - book.year;
+//        return year - book.year; //worse way - will cause problems with numbers > int scope
+        return Integer.compare(this.year, book.year);
     }
 }

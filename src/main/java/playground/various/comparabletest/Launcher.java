@@ -14,7 +14,6 @@ public class Launcher {
         printBooks();
         Collections.sort(books);
         printBooks();
-
     }
 
     public void createInstances() {
