@@ -7,6 +7,6 @@ public class Ex21Main {
         System.out.println("x-y = " + ex21.subtract(2, 4));
         System.out.println("x*y = " + ex21.multiply(2, 4));
         System.out.println("x/y = " + ex21.divide(2, 4));
-        System.out.println("x/y = " + ex21.divide(2, 0));
+//        System.out.println("x/y = " + ex21.divide(2, 0));
     }
 }
