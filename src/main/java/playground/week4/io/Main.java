@@ -9,5 +9,10 @@ public class Main {
         operationsOnDir.createDirectories();
 
         operationsOnDir.deleteDirectory();
+
+        operationsOnDir.getDirectorySize();
+        operationsOnDir.countFilesInDir();
+
+        operationsOnDir.copyDirectory();
     }
 }
