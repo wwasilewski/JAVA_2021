@@ -1,4 +1,4 @@
-package playground.week4.io;
+package playground.week4.io.directories;
 
 public class Main {
     public static void main(String[] args) {

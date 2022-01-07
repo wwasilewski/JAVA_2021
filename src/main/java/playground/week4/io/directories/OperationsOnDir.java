@@ -1,4 +1,4 @@
-package playground.week4.io;
+package playground.week4.io.directories;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -72,7 +72,7 @@ public class OperationsOnDir {
         log.info("free space in MB: " + freeSpace / 1024 / 1024);
     }
 
-    // counting dir as a file
+    // counting dirs as files
     public void countFilesInDir() {
         File file = new File("D:\\test");
 
@@ -87,7 +87,7 @@ public class OperationsOnDir {
         }
     }
 
-    // copy only one dir
+    // copies only one dir
     public void copyDirectory() {
         Path originalDir = Paths.get("D:\\test");
         Path newDir = Paths.get("E:\\test");
