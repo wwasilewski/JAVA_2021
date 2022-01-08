@@ -1,4 +1,4 @@
-package playground.week4.io.files.readorwrite;
+package playground.week4.io.files.readfromfile;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadOrWriteToFile {
+public class ReadFromFile {
 
     public List<String> readAllLinesUnbuffered() {
         Path file = Paths.get("d:\\test\\myFile.txt");
