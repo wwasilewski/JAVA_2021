@@ -8,5 +8,6 @@ public class Main {
 //        operationsOnFiles.deleteFile();
 
         operationsOnFiles.copyFile();
+        operationsOnFiles.moveFile();
     }
 }

@@ -48,4 +48,17 @@ public class OperationsOnFile {
             }
         }
     }
+
+    // can move, change name and replace file
+    public void moveFile() {
+        Path source = Paths.get("D:\\test\\testFile.txt");
+        Path destination = Paths.get("E:\\testFile3.txt");
+
+        try {
+            Files.move(source, destination, StandardCopyOption.REPLACE_EXISTING);
+            log.info("file moved");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
