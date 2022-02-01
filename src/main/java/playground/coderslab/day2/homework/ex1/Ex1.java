@@ -3,9 +3,9 @@ package playground.coderslab.day2.homework.ex1;
 public class Ex1 {
     public static void main(String[] args) {
 
-        String str = "aA bB";
+        String str = "ag bz";
         System.out.println(encode(str));
-        System.out.println(caesar(str, 3));
+        System.out.println(caesar(str, 2));
     }
 
     public static String encode(String str) {
